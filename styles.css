@@ -1,4 +1,55 @@
+/* body {
+    background-image: url(./images/backgroundImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+} */
+
+.title-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    border-bottom: 1px solid black;
+    background-color: aliceblue;
+}
+
 .title {
     color: rgb(213, 66, 21);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.banner-div {
+    height: 300px;
+    background-image: url(./images/ZucchiniSalad.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid black;
+}
+
+.recipe-list-section {
+    padding: 2em;
+}
+
+.ul-recipes {
+}
+
+.ul-recipes li {
+    /* font-size: 2em; */
+    color: rgb(213, 66, 21);
+}
+
+.ul-recipes li a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.ul-recipes li:hover {
+    background-color: rgb(213, 66, 21);
+    border-radius: 10%;
 }
