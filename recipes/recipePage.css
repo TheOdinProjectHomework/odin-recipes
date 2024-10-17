@@ -27,6 +27,7 @@ body {
     /* border: 1px solid red; */
     justify-content: center;
     padding: 2rem;
+    padding-left: 4rem;
 }
 
 .ingredients-section h2 {
@@ -39,7 +40,7 @@ body {
 
 /* Home button */
 .home {
-    margin-left: 2em;
+    margin-left: 4em;
     font-size: 1rem;
 }
 
